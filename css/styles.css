@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section#home {
+    background-color: #f5f5f5;
+}
+
+section#skills {
+    background-color: #e0e0e0;
+}
+
+section#experience, section#work, section#testimonials {
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p, ul, blockquote {
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+blockquote {
+    background-color: #fff;
+    border-left: 5px solid #333;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    color: #999;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
